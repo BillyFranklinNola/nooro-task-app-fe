@@ -63,7 +63,7 @@ const TasksBody: React.FC = () => {
   if (error) return <p className="text-red-500">Error: {error}</p>;
 
   return (
-    <main className="flex flex-col items-center h-[calc(100vh-200px)] w-full bg-[#1a1a1a]">
+    <main className="flex flex-col items-center h-[calc(100vh-200px)] w-full bg-[#1a1a1a] max-md:px-4 max-md:pb-4">
       {isListView ? (
         <TaskList
           tasks={tasks}

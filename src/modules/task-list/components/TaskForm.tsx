@@ -27,7 +27,7 @@ const TaskForm: React.FC<{
   const buttonTitle = task ? "Save" : "Add Task";
 
   return (
-    <div className="flex flex-col gap-12 mt-[100px]">
+    <div className="flex flex-col w-full max-w-[736px] gap-12 mt-[40px] lg:mt-[100px]">
       <button
         type="button"
         onClick={() => setIsListView(true)}
@@ -57,7 +57,7 @@ const TaskForm: React.FC<{
         </div>
         <fieldset>
           <legend className="mb-3">Color</legend>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             {COLOR_OPTIONS.map((hex) => (
               <label key={hex} className="cursor-pointer">
                 <input
