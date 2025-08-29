@@ -71,7 +71,7 @@ const TaskCard = ({
         type="button"
         onClick={() => onDelete(id)}
         aria-label="Delete Task"
-        className="flex-shrink-0 hover:opacity-80"
+        className="flex-shrink-0 hover:opacity-80 cursor-pointer"
       >
         <Image src="/trash-icon.svg" alt="" width={24} height={24} />
       </button>

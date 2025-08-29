@@ -24,6 +24,7 @@ NEXT_PUBLIC_API_BASE=http://localhost:4001
 
 yarn install
 yarn dev
+
 The app will start at: http://localhost:3000
 
 ## Accessibility 

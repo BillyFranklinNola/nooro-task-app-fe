@@ -87,14 +87,14 @@ const Dialog = ({
             ref={cancelBtnRef}
             type="button"
             onClick={onCancel}
-            className="rounded-md bg-[#333333] px-3 py-2 text-[14px] text-[#F2F2F2] cursor-pointer"
+            className="rounded-md bg-[#333333] px-3 py-2 text-[14px]  text-[#F2F2F2] cursor-pointer"
           >
             {cancelText}
           </button>
           <button
             type="button"
             onClick={onConfirm}
-            className="rounded-md bg-[#E25858] px-3 py-2 text-[14px] font-semibold text-white hover:opacity-90 cursor-pointer"
+            className="rounded-md bg-[#737373] px-3 py-2 text-[14px]  text-[#F2F2F2] cursor-pointer"
           >
             {confirmText}
           </button>
